@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^(.*)/(.*)/(.*)/(.*)/$ index.php?content=$1___$2___$3___$4&%{QUERY_STRING} [L]
+RewriteRule ^(.*)/(.*)/(.*)/$ index.php?content=$1___$2___$3&%{QUERY_STRING} [L]
+RewriteRule ^(.*)/(.*)/$ index.php?content=$1___$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)/$ index.php?content=$1&%{QUERY_STRING} [L]

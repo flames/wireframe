@@ -1,0 +1,10 @@
+<!-- This snippet is used in b2g, see Makefile -->
+<link rel="resource" type="application/l10n" href="locale.properties"/>
+<script type="text/javascript" src="/js/pdf.js/external/webL10n/l10n.js"></script>
+<script type="text/javascript" src="/js/pdf_combined.js"></script>
+<script type="text/javascript" src="/shared/js/async_storage.js"></script>
+<script type="text/javascript">
+  // This specifies the location of the pdf.js file.
+  PDFJS.workerSrc = "/js/pdf_combined.js";
+  PDFJS.disableTextLayer = true;
+</script>

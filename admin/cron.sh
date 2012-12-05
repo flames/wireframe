@@ -1,0 +1,1 @@
+/usr/bin/php /is/htdocs/wp1024418_BYIFCIGY79/www/w-bluechem-group.test/admin/cronjob.php

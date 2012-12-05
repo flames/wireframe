@@ -1,0 +1,4 @@
+# Output file names
+output:
+  default: 'jquery.wysiwyg.js'
+  minified: 'jquery.wysiwyg.min.js'

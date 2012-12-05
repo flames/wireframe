@@ -1,0 +1,105 @@
+/* 
+    Document   : default
+    Created on : 18.08.2011, 15:40:52
+    Author     : Abadon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+html {margin:0; padding:0; width:100%; height:100%; overflow-y:scroll;}
+body {margin:0; padding:0; width:100%; height:100%; font-size: 12px; font-family:arial;}
+img {border: none;}
+
+#site{padding:10px;}
+#header{text-align:left; height:72px; margin-bottom:10px;}
+#head_left{float:left;}
+#head_right{float:right;}
+.breadcrumb{margin-bottom:10px;}
+#content{width:100%; text-align:left;}
+#navigation {position:absolute; text-align:left; width:300px; margin-bottom:0px;}
+#main{text-align:left; margin-left:350px; padding-bottom:56px; margin-bottom:0px;}
+
+#abstand_login{font-size: 10px; width:1px; min-height:50%; margin-bottom: -150px; float:left;}
+#login_box{width:270px; height:300px; padding:20px; margin:0 auto; clear:left; overflow:hidden;}
+#login_box input{
+    width:260px;
+}
+.icon-blue {
+    background-image: url("../img/glyphicons-halflings-blue.png");
+}
+.icon-dark_blue {
+    background-image: url("../img/glyphicons-halflings-dark_blue.png");
+}
+#login_box button{
+    width:270px;
+}
+
+.fileinput-button{
+    margin-right:0;
+}
+.status_dropdown {
+    min-width: 23px;
+    padding-left: 6px;
+    position: absolute;
+    top: 22px;
+}
+#showfrom, #showtill{
+    width:150px;
+}
+.showEntity {
+    width: 100%;
+}
+.uploader form{
+    width:80%;
+}
+.btn-group{
+    width:auto;
+    margin-right:10px;
+    position: static;
+    float:left;
+}
+.action_buttons .btn-group{
+    position: relative;
+}
+.btn-group:after {
+    clear: none;
+}
+.entity_title {
+    width: 150px;
+}
+.entity_field{
+    padding:5px 0;
+}
+.entity_field textarea{
+    width:100%; 
+    height:400px;
+}
+
+.nav-list > .active.nav-header > a,
+.nav-list > .active.nav-header > a:hover {
+  color: white;
+  font-size: 13px;
+  background-color: #f89406;
+}
+.nav-list > .nav-header > a,
+.nav-list > .nav-header > a:hover {
+  font-size: 13px;
+}
+
+.nav-list ul{
+    list-style:none;
+    padding-left:0;
+    display:none;
+}
+
+.nav-list ul.active{
+    display:block;
+}
+
+.wysiwyg {
+    width: 99% !important;
+}
+.wysiwygframe {
+    width: 100%;
+}

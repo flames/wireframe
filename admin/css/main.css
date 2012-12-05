@@ -1,0 +1,153 @@
+/* 
+    Document   : default
+    Created on : 18.08.2011, 15:40:52
+    Author     : Abadon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+html {margin:0; padding:0; width:100%; height:100%; overflow-y:scroll;}
+body {margin:0; padding:0; width:100%; height:100%; font-size: 12px; font-family:arial;}
+img {border: none;}
+
+#site{padding:10px;}
+#header{text-align:left; height:72px; margin-bottom:10px; position:relative;}
+#head_left{position:absolute; left:10px; top:10px;}
+#head_middle{
+    height:80px;
+    margin:0 auto; 
+    position:relative; 
+    top:-30px;
+    border:2px solid #E3E3E3;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top: none;
+}
+#head_middle ul{list-style: none; position:relative; top: 5px; margin:10px 0;}
+#head_middle li{float: left; text-align: center;cursor:pointer;width:80px;}
+#head_right{position:absolute; right:10px; top:20px;}
+.breadcrumb{margin-bottom:10px;}
+#content{width:100%; text-align:left;}
+#navigation {position:absolute; text-align:left; width:300px; margin-bottom:0px;}
+#main{text-align:left; margin-left:350px; padding-bottom:56px; margin-bottom:0px;}
+
+#abstand_login{font-size: 10px; width:1px; min-height:50%; margin-bottom: -150px; float:left;}
+#login_box{width:270px; height:300px; padding:20px; margin:0 auto; clear:left; overflow:hidden;}
+#login_box input{
+    width:260px;
+}
+.icon-blue {
+    background-image: url("../img/glyphicons-halflings-blue.png");
+}
+.icon-dark_blue {
+    background-image: url("../img/glyphicons-halflings-dark_blue.png");
+}
+#login_box button{
+    width:270px;
+}
+
+.fileinput-button{
+    margin-right:0;
+}
+.status_dropdown {
+    min-width: 23px;
+    padding-left: 6px;
+    position: absolute;
+    top: 22px;
+}
+#showfrom, #showtill{
+    width:150px;
+}
+.showEntity {
+    width: 100%;
+}
+.uploader form{
+    width:80%;
+}
+.btn-group{
+    width:auto;
+    margin-right:10px;
+    position: static;
+    float:left;
+}
+.action_buttons .btn-group{
+    position: relative;
+}
+.btn-group:after {
+    clear: none;
+}
+.entity_title {
+    width: 150px;
+}
+.entity_field{
+    padding:5px 0;
+}
+.entity_field textarea{
+    width:100%; 
+    height:400px;
+}
+
+.nav-list > .active.nav-header > a,
+.nav-list > .active.nav-header > a:hover {
+  color: white;
+  font-size: 13px;
+  background-color: #f89406;
+}
+.nav-list > .nav-header > a,
+.nav-list > .nav-header > a:hover {
+  font-size: 13px;
+}
+
+.nav-list ul{
+    list-style:none;
+    padding-left:0;
+    display:none;
+}
+
+.nav-list ul.active{
+    display:block;
+}
+
+.wysiwyg {
+    width: 99% !important;
+}
+div.wysiwyg iframe {
+    width: 100%!important;
+}
+div.tab-content {
+    margin-top:-18px;
+}
+div.tab-pane.active {
+    border-left:1px solid #DDD;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    padding:6px;
+    background:white;
+}
+#edit_form {
+    margin-bottom:0;
+}
+#edit_buttons_bottom {
+    margin-top:18px !important;
+}
+.delete {
+    text-align:right !important;
+}
+.ups_del_group {
+    float:right;
+}
+.fileupload-buttonbar {
+    padding-right: 8px;
+}
+#fileupload_prod_pics {
+    padding-right: 20px;
+}
+
+#option_holder h3{
+    margin-top:-5px;
+}
